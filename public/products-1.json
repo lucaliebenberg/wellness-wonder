@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "3-Piece Yoga Mat Set",
+    "price": 1000,
+    "description": "Your perfect doorbell for home security, featuring 720p HD video, 2-way audio, and motion detection.",
+    "category": "electronics",
+    "image": "/images/1b.png",
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Earthing Mat",
+    "price": 1000,
+    "description": "Advanced 1080p HD video doorbell with two-way intercom and optional chime.",
+    "category": "electronics",
+    "image": "/images/1b.png",
+    "rating": {
+      "rate": 4.0,
+      "count": 100
+    }
+  },
+  {
+    "id": 3,
+    "title": "Intelligent Wired Cupping Massage Device",
+    "price": 1000,
+    "description": "Waterproof cover for your video doorbell to protect it from rain and harsh weather conditions.",
+    "category": "electronics",
+    "image": "/images/1c.png",
+    "rating": {
+      "rate": 4.7,
+      "count": 80
+    }
+  },
+  {
+    "id": 4,
+    "title": "Massage Roller",
+    "price": 1000,
+    "description": "Convenient 3-in-1 wireless charging station for all your Apple devices.",
+    "category": "electronics",
+    "image": "/images/1d.png",
+    "rating": {
+      "rate": 4.3,
+      "count": 150
+    }
+  },
+  {
+    "id": 5,
+    "title": "Smart Electronic Cupping Massage Device",
+    "price": 1000,
+    "description": "Compact and efficient 3-in-1 charging station for Apple devices.",
+    "category": "electronics",
+    "image": "/images/image-5.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 130
+    }
+  }
+]
+  
