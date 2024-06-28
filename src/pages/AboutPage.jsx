@@ -1,37 +1,80 @@
 import React from 'react'
-import { Navbar } from "../components";
+import {Navbar} from "../components";
+
 const AboutPage = () => {
   return (
-    <div style={{ overflowY: 'none' }}>
-      <Navbar />
+    <div style={{overflowY: 'none'}}>
+      <Navbar/>
       <div className="container mx-8 my-3 py-3">
         <h1 className="text-center">About Us</h1>
-        <hr />
-        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: "column",  margin: "0 auto", gap: "32px", paddingTop: "25px" }}>
-          <h3 style={{ textAlign: 'center'}}>Welcome to New Tech</h3>
-          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem',  margin: "0 auto"}}>
-          At New Tech, we're passionate about harnessing the power of technology to drive innovation and progress. Our mission is to provide cutting-edge solutions, expert insights, and top-notch products to help individuals and businesses thrive in a rapidly evolving digital landscape.
+        <hr/>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexDirection: "column",
+          margin: "0 auto",
+          gap: "32px",
+          paddingTop: "25px"
+        }}>
+          <h3 style={{textAlign: 'center'}}>Welcome to Wellness Wonder</h3>
+          <p className="" style={{textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem', margin: "0 auto"}}>
+            At WELLNESS WONDERS, we believe in the power of holistic health and the importance of nurturing the mind,
+            body, and spirit. Founded in 2024, we have dedicated ourselves to providing the highest quality wellness
+            products that support a balanced and healthy lifestyle. Our carefully curated selection includes everything
+            from organic supplements and natural skincare to eco-friendly home goods and fitness equipment. Each product
+            is chosen with your well-being in mind, ensuring you receive only the best nature has to offer.
           </p>
 
-          <h3 style={{ textAlign: 'center'}}>Our Story</h3>
-          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem',  margin: "0 auto"}}>
-          Founded in 2022 New Tech has grown into a trusted hub for all things tech. We're dedicated to staying at the forefront of technological advancements, ensuring our customers receive the best guidance and support possible.
-          </p>
-          
-          <h3 style={{ textAlign: 'center'}}>Our Values</h3>
-          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem',  margin: "0 auto"}}>
-          <ul style={{ textAlign: 'left' }}>
-            <li><strong>Innovation</strong>: We embrace the latest technologies and ideas to stay ahead of the curve.</li>
-            <li><strong>Excellence</strong>: We strive for exceptional quality in everything we do.</li>
-            <li><strong>Customer-centric</strong>: Your success is our top priority.</li>
-            <li><strong>Collaboration</strong>: We work together to achieve great things.</li>
-          </ul>
+          <h3 style={{textAlign: 'center'}}>Our Mission</h3>
+          <p className="" style={{textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem', margin: "0 auto"}}>
+            Our mission is to empower individuals to achieve optimal health and wellness through natural, sustainable,
+            and innovative products. We are committed to inspiring positive lifestyle changes and supporting our
+            customers on their journey to a healthier, happier life. At WELLNESS WONDERS, your well-being is our
+            priority, and we strive to be your trusted partner in achieving a balanced and vibrant life.
           </p>
 
-          <p style={{ textAlign: 'center', fontWeight: 'bold' , maxWidth: '48rem', fontSize: '1rem',  margin: "0 auto", paddingTop: "18px" }}>
-          Join the New Tech community today and discover a world of possibilities!
+          <h3 style={{textAlign: 'center'}}>Our Values</h3>
+          <p className="" style={{textAlign: 'center', maxWidth: '48rem', fontSize: '1.1rem', margin: "0 auto"}}>
+            <ul style={{textAlign: 'left'}}>
+              <li><strong>Quality</strong>
+                : We believe that wellness starts with quality. That’s why we meticulously select products that meet the
+                highest standards of purity, potency, and sustainability. We work with trusted suppliers who share our
+                commitment to excellence and transparency.
+              </li>
+              <li><strong>Integrity</strong>
+                : Trust is at the heart of our business. We are dedicated to providing honest information and authentic
+                products. Our transparent sourcing and production practices ensure you know exactly what you're getting,
+                every time.
+              </li>
+              <li><strong>Sustainability</strong>
+                : We are passionate about protecting our planet. Our products are sourced responsibly, and we prioritize
+                eco-friendly packaging and sustainable business practices. We strive to minimize our environmental
+                footprint while maximizing positive impact.
+              </li>
+              <li><strong>Community</strong>
+                : We believe in the power of community and connection. Our goal is to foster a supportive environment
+                where individuals can share their wellness journeys, find inspiration, and grow together. We are
+                committed to giving back to our community through various health and wellness initiatives.
+              </li>
+              <li><strong>Innovation</strong>
+                : The world of wellness is ever-evolving, and so are we. We stay at the forefront of industry trends and
+                scientific advancements to bring you innovative products that enhance your well-being. Our commitment to
+                continuous improvement drives us to explore new frontiers in holistic health.
+              </li>
+            </ul>
           </p>
 
+          <p style={{
+            textAlign: 'center',
+            fontWeight: 'bold',
+            maxWidth: '48rem',
+            fontSize: '1rem',
+            margin: "0 auto",
+            paddingTop: "18px"
+          }}>
+            Join us at WELLNESS WONDERS and embark on a journey towards a healthier, more balanced life. Discover our
+            range of premium wellness products and experience the difference of a holistic approach to health.
+          </p>
 
 
           {/* <div style={{ width: "auto", height: "auto", margin: "0 auto" }}>
