@@ -1,1 +1,0 @@
-# Wellness Wonder Ecommerce Shop

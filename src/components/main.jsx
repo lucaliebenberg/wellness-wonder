@@ -11,6 +11,7 @@ const Home = () => {
             src="/images/wellness-banner.jpg"
             alt="Card"
             height={200}
+            width={600}
             style={{opacity: "40%"}}
           />
           <div className="card-img-overlay d-flex align-items-center">
